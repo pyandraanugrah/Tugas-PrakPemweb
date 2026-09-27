@@ -47,7 +47,7 @@ Route::post('/form-mahasiswa', function (Request $request) {
             'usia.max' => 'Usia maksimal 60 tahun.',
 
             'nim.required' => 'NIM wajib diisi.',
-            'nim.digits_between' => 'NIM harus terdiri dari 8 sampai 12 digit.',
+            'nim.digits_between' => 'NIM anda harus terdiri dari 8 sampai 12 digit.',
         ]
     );
 
